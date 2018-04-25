@@ -1,0 +1,43 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+svg {
+    overflow: hidden;
+    top: 0px;
+    z-index: 0;
+    float: right;
+
+}
+
+path {
+    width: 100%;
+    position: relative;
+}
+
+#controls {
+    height: 100%;
+    padding: 1em;
+    background-color: #EEEEEE;
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+}
+ul {
+    padding-left: 0px;
+}
+li {
+    list-style: none;
+    margin: 1em;
+}
+
+input {
+    float:right;
+}
+
+#dummyCanvas {
+    display:none;
+}
