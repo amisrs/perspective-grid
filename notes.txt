@@ -1,0 +1,27 @@
+Open site
+
+Size canvas to match current window size
+	- automatically assign width, height
+	- lock aspect ratio
+
+If user resizes the window, the aspect ratio will stay the same
+
+
+If user changes value in res spinner
+	- redraw canvas to match new aspect ratio
+	- maintain current size
+
+Click save
+	- draw svg to canvas
+	- make them save
+
+
+Points
+- Point {
+	"x": x position,
+	"y": y position,
+	"element": svg element
+
+}
+- Save position based on %
+

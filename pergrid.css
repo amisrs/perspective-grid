@@ -6,6 +6,7 @@ html, body {
 }
 
 svg {
+    position: relative;
     overflow: hidden;
     top: 0px;
     z-index: 0;
