@@ -42,3 +42,15 @@ input {
 #dummyCanvas {
     display:none;
 }
+
+#drawingCanvas {
+    /* width: 100px; */
+    /* height: 100px; */
+}
+
+#canvasDiv {
+    position: relative;
+    float: right;
+    top: 50%;
+    transform: translateY(-50%);
+}
